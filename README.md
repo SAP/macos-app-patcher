@@ -14,7 +14,7 @@ Patcher is a centralized update tool for SAP open-source applications, ensuring 
 
 # License
 
-Copyright 2026 SAP SE or an SAP affiliate company and macos-app-patcher contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macos-app-patcher).
+Copyright 2026 SAP SE or an SAP affiliate company and Patcher contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macos-app-patcher).
 
 <br/>
 
