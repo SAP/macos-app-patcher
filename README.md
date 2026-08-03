@@ -17,7 +17,7 @@ Looking for more tools? The built-in _Discover_ section lets you explore and ins
 
 # License
 
-Copyright 2026 SAP SE or an SAP affiliate company and Patcher contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macos-app-patcher).
+Copyright 2026 SAP SE or an SAP affiliate company and _Patcher_ contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macos-app-patcher).
 
 <br/>
 
