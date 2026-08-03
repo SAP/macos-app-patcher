@@ -28,6 +28,18 @@ Looking for more tools? The built-in _Discover_ section lets you explore and ins
 
 <br/>
 
+# Documentation
+
+To learn more about _Patcher_ features, make sure to take a look at our [wiki](https://github.com/SAP/macOS-app-patcher/wiki) or the links below:
+
+* [Installation](https://github.com/SAP/macOS-app-patcher/wiki/Installation)
+* [Uninstallation](https://github.com/SAP/macOS-app-patcher/wiki/Uninstallation)
+* [Using _Patcher_](https://github.com/SAP/macOS-app-patcher/wiki/Using-Patcher)
+* [Managing _Patcher_](https://github.com/SAP/macOS-app-patcher/wiki/Managing-Patcher)
+* [Frequently Asked Questions](https://github.com/SAP/macOS-app-patcher/wiki/Frequently-Asked-Questions)
+
+<br/>
+
 # License
 
 Copyright 2026 SAP SE or an SAP affiliate company and _Patcher_ contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/macos-app-patcher).
