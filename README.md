@@ -6,9 +6,12 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/macos-app-patcher)](https://api.reuse.software/info/github.com/SAP/macos-app-patcher)
 
-### About this project
+### Automatic updates, zero hassle
 
-Patcher is a centralized update tool for SAP open-source applications, ensuring users always have access to the latest versions while reducing the need for individual push deployments and simplifying release management.
+_Patcher_ is the easiest way to keep SAP open-source applications for macOS up to date. Install it once, and it automatically delivers the latest versions in the background, so you never have to wonder whether you're running the current release.
+
+Looking for more tools? The built-in **Discover** section lets you explore and install all available SAP open-source applications with just a few clicks.
+
 
 <br/>
 
