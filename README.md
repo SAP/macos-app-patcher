@@ -12,6 +12,19 @@ _Patcher_ is the easiest way to keep SAP open-source applications for macOS up t
 
 Looking for more tools? The built-in _Discover_ section lets you explore and install all our open-source applications with just a few clicks.
 
+<br/>
+
+# Features
+
+🚀 Different update modes (automatic, notify, manual)
+
+⏱️ Update deferral
+
+🔄 App reinstall
+
+🧰 MDM support
+
+💻 Runs on macOS 14 and newer
 
 <br/>
 
