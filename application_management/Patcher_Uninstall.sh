@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SAPCorp_Privileges2_Uninstall.sh, 0.1.0
+# SAPCorp_Patcher_Uninstall.sh, 0.1.0
 # (c) 2026, SAP SE (Marc Thielemann <marc.thielemann@sap.com>)
 
 # Licensed under the Apache License, Version 2.0 (the "License");
