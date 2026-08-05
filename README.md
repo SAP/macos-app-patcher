@@ -36,7 +36,6 @@ To learn more about _Patcher_ features, make sure to take a look at our [wiki](h
 * [Uninstallation](https://github.com/SAP/macOS-app-patcher/wiki/Uninstallation)
 * [Using _Patcher_](https://github.com/SAP/macOS-app-patcher/wiki/Using-Patcher)
 * [Managing _Patcher_](https://github.com/SAP/macOS-app-patcher/wiki/Managing-Patcher)
-* [Frequently Asked Questions](https://github.com/SAP/macOS-app-patcher/wiki/Frequently-Asked-Questions)
 
 <br/>
 
