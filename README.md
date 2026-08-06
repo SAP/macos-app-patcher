@@ -12,6 +12,8 @@ _Patcher_ is the easiest way to keep SAP open-source applications for macOS up t
 
 Looking for more tools? The built-in _Discover_ section lets you explore and install all our open-source applications with just a few clicks.
 
+<img src="https://github.com/SAP/macOS-app-patcher/blob/main/readme_images/MainWindow.png" width="1176">
+
 <br/>
 
 # Features
