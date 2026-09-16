@@ -6,7 +6,7 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/macos-app-patcher)](https://api.reuse.software/info/github.com/SAP/macos-app-patcher)
 
-### Automatic updates, zero hassle
+### Automatic updates, zero hassle.
 
 _Patcher_ is the easiest way to keep SAP open-source applications for macOS up to date. Install it once, and it automatically delivers the latest versions in the background, so you never have to wonder whether you're running the current release.
 
