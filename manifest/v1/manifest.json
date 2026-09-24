@@ -106,6 +106,13 @@
       "url": "https://github.com/SAP/power-monitoring-tool-for-macos/releases/download/1.3.4/PowerMonitor_1.3.4.pkg",
       "date": "2026-09-15T09:58:27Z",
       "checksum": "2eb052647d458d4aa5f07e3b663cda0f0df86c736b52058b7884bf2267a025e2"
+    },
+    "corp.sap.Patcher": {
+      "version": "1.0.0",
+      "notes": "First release of Patcher.app as an open-source application.",
+      "url": "https://github.com/SAP/macos-app-patcher/releases/download/1.0.0/Patcher_1.0.0.pkg",
+      "date": "2026-09-24T13:48:23Z",
+      "checksum": "32506514961cfbec99ecf57772f09f20db6bac49fc7ea57f174fbf69435f23e5"
     }
   }
 }
