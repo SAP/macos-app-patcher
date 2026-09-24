@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!--
+Copyright 2026 SAP SE
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <dict>
+                <key>corp.sap.Patcher</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                
+                                <!--
+                                    key:    HideDiscoverSection
+                                    value:  a boolean
+                                  
+                                    When set to true, the Discover section of the sidebar will be hidden.
+                                -->
+                                <key>HideDiscoverSection</key>
+                                <true/>
+                                
+                                <!--
+                                    key:    UpdateStrategy
+                                    value:  an integer between 0 and 2
+                                  
+                                    Sets the update strategy as follows:
+                                
+                                        0: Automatically download and install
+                                        1: Automatically check and notify
+                                        2: Manual
+                                -->
+                                <key>UpdateStrategy</key>
+                                <integer>1</integer>
+                                
+                                <!--
+                                    key:    UpdateNotificationInterval
+                                    value:  an integer between 1 and 24
+                                  
+                                    Specifies how often a notification about new updates should be sent to
+                                    the user (in hours) when UpdateStrategy is set to 1. If not set, the
+                                    value defaults to 3.
+                                -->
+                                <key>UpdateNotificationInterval</key>
+                                <integer>5</integer>
+                                
+                                <!--
+                                    key:    UpdateDeferralDays
+                                    value:  an integer between 0 and 28
+                                  
+                                    Specifies the number of days from an app's release date for which an app
+                                    update should neither show up in the Patcher app nor be automatically
+                                    installed. If not set, it defaults to 0.
+                                -->
+                                <key>UpdateDeferralDays</key>
+                                <integer>14</integer>
+                                                                
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+            <key>PayloadDescription</key>
+            <string/>
+            <key>PayloadDisplayName</key>
+            <string>Patcher configuration</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.ManagedClient.preferences.2A9E3532-991A-4F8A-A48B-D183125A5EC8</string>
+            <key>PayloadOrganization</key>
+            <string>SAP SE</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>2A9E3532-991A-4F8A-A48B-D183125A5EC8</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Configures the Patcher app.</string>
+    <key>PayloadDisplayName</key>
+    <string>Patcher configuration</string>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadIdentifier</key>
+    <string>79A55256-047B-47D9-996F-DD7131294A8B</string>
+    <key>PayloadOrganization</key>
+    <string>SAP SE</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>C75FC721-1A37-423A-ACDE-953832E13476</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

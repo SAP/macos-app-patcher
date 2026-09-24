@@ -1,0 +1,1442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2177532FD02DCC00BCA777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD21774B2FD02DCC00BCA777 /* Assets.xcassets */; };
+		AD2177552FD02DCC00BCA777 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AD21774D2FD02DCC00BCA777 /* Credits.rtf */; };
+		AD2177572FD02DCC00BCA777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2177502FD02DCC00BCA777 /* Main.storyboard */; };
+		AD2177582FD02DCC00BCA777 /* MTDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2177482FD02DCC00BCA777 /* MTDiscoverViewController.swift */; };
+		AD2177592FD02DCC00BCA777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21774A2FD02DCC00BCA777 /* AppDelegate.swift */; };
+		AD21775A2FD02DCC00BCA777 /* corp.sap.PatcherDaemon.plist in Embed Daemon Plist */ = {isa = PBXBuildFile; fileRef = AD21774C2FD02DCC00BCA777 /* corp.sap.PatcherDaemon.plist */; };
+		AD2177622FD02DD200BCA777 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21775C2FD02DD200BCA777 /* main.swift */; };
+		AD2177632FD02DD200BCA777 /* PatcherXPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21775E2FD02DD200BCA777 /* PatcherXPC.swift */; };
+		AD2177642FD02DD200BCA777 /* PatcherXPCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21775F2FD02DD200BCA777 /* PatcherXPCProtocol.swift */; };
+		AD26FF622FD05C7100E27723 /* MTButtonTitleTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26FF602FD05C7100E27723 /* MTButtonTitleTransformer.swift */; };
+		AD26FF642FD0626F00E27723 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AD26FF632FD0626F00E27723 /* Localizable.xcstrings */; };
+		AD29B7912FE00EEB008F01A4 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = ADFDC4212FCF06BD00AF18EA /* AppIcon.icon */; };
+		AD29B7922FE01416008F01A4 /* MTVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DB3C42FDFF09A008A2448 /* MTVersion.swift */; };
+		AD29C40B2FF7B20E003A5216 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AD29C40A2FF7B20E003A5216 /* Localizable.xcstrings */; };
+		AD2D61DC2FD8083200CBD08E /* MTSidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2D61DB2FD8083200CBD08E /* MTSidebarItem.swift */; };
+		AD2D621D2FD8348100CBD08E /* MTDaemonConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2D621C2FD8348100CBD08E /* MTDaemonConnection.swift */; };
+		AD2D621E2FD835EB00CBD08E /* PatcherXPCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21775F2FD02DD200BCA777 /* PatcherXPCProtocol.swift */; };
+		AD2F569C2FD081A00042C816 /* MTColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F569A2FD081A00042C816 /* MTColoredButton.swift */; };
+		AD31D4B12FF5176500F0955A /* MTSettingsGeneralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD31D4B02FF5176500F0955A /* MTSettingsGeneralController.swift */; };
+		AD31D4B32FF51F1F00F0955A /* MTSettingsUpdatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD31D4B22FF51F1F00F0955A /* MTSettingsUpdatesController.swift */; };
+		AD47F48230515BC1006132CA /* MTApplicationLocationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD47F48030515BBA006132CA /* MTApplicationLocationPolicy.swift */; };
+		AD47F48330515BC1006132CA /* MTApplicationLocationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD47F48030515BBA006132CA /* MTApplicationLocationPolicy.swift */; };
+		AD530F7E2E31333F00E4F17E /* PatcherXPC.xpc in Embed XPC Service */ = {isa = PBXBuildFile; fileRef = AD530F722E31333E00E4F17E /* PatcherXPC.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD5817AB3023211E00E7B05C /* manifest.pem in Resources */ = {isa = PBXBuildFile; fileRef = AD5817AA3023211E00E7B05C /* manifest.pem */; };
+		AD5DB3C92FDFF0EA008A2448 /* MTInstalledApplicationResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DB3C62FDFF0B9008A2448 /* MTInstalledApplicationResolver.swift */; };
+		AD5DB3CA2FDFF0EA008A2448 /* MTVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DB3C42FDFF09A008A2448 /* MTVersion.swift */; };
+		AD5DB3CB2FDFF0EA008A2448 /* MTApplicationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5DB3C72FDFF0C6008A2448 /* MTApplicationRepository.swift */; };
+		AD613C4C2FD174B000F1E699 /* MTSidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD613C4B2FD174B000F1E699 /* MTSidebarController.swift */; };
+		AD613C502FD1878F00F1E699 /* MTUpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD613C4F2FD1878F00F1E699 /* MTUpdatesViewController.swift */; };
+		AD62E3932FD9773E00D12C05 /* MTInstallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62E3912FD9773E00D12C05 /* MTInstallDelegate.swift */; };
+		AD62E3942FD9773E00D12C05 /* MTInstallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62E3912FD9773E00D12C05 /* MTInstallDelegate.swift */; };
+		AD6B30682FE1708800F5C564 /* MTRotatingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6B30672FE1708800F5C564 /* MTRotatingProgressView.swift */; };
+		AD72BAA330504CBE00B8D417 /* MTApplicationInstallationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72BAA230504C9300B8D417 /* MTApplicationInstallationMonitor.swift */; };
+		AD7EDB832FD9AE6200609E9B /* MTCachedApplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7EDB822FD9AE6200609E9B /* MTCachedApplications.swift */; };
+		AD861F6A2FD9964D00F8B5E8 /* MTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F692FD9964D00F8B5E8 /* MTApplication.swift */; };
+		AD861F6B2FD9964D00F8B5E8 /* MTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F692FD9964D00F8B5E8 /* MTApplication.swift */; };
+		AD861F902FD9984C00F8B5E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F852FD9984C00F8B5E8 /* main.swift */; };
+		AD861F922FD9984C00F8B5E8 /* PatcherDaemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F8A2FD9984C00F8B5E8 /* PatcherDaemon.swift */; };
+		AD861F932FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F8B2FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift */; };
+		AD861F972FD9988200F8B5E8 /* PatcherDaemon.app in Copy Agent & Daemon */ = {isa = PBXBuildFile; fileRef = AD861F712FD9984500F8B5E8 /* PatcherDaemon.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD861F982FD998CF00F8B5E8 /* MTCodeSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F54642FD9484C002AFCEC /* MTCodeSigning.swift */; };
+		AD861F992FD9990400F8B5E8 /* MTInstallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62E3912FD9773E00D12C05 /* MTInstallDelegate.swift */; };
+		AD861F9A2FD9990B00F8B5E8 /* MTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F692FD9964D00F8B5E8 /* MTApplication.swift */; };
+		AD861F9B2FD9991000F8B5E8 /* MTAppDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26FF492FD0536100E27723 /* MTAppDefinitions.swift */; };
+		AD861F9E2FD99C2300F8B5E8 /* PatcherDaemonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F8B2FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift */; };
+		AD861F9F2FD99C2800F8B5E8 /* PatcherDaemonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD861F8B2FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift */; };
+		AD861FA02FD99C5B00F8B5E8 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = ADFDC4212FCF06BD00AF18EA /* AppIcon.icon */; };
+		AD89FB182FE9757500AFB067 /* MTTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89FB172FE9757500AFB067 /* MTTabViewController.swift */; };
+		AD89FB1A2FE975D400AFB067 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89FB192FE975D400AFB067 /* Constants.swift */; };
+		AD89FB1B2FE975D400AFB067 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89FB192FE975D400AFB067 /* Constants.swift */; };
+		AD8F54652FD9484C002AFCEC /* MTCodeSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F54642FD9484C002AFCEC /* MTCodeSigning.swift */; };
+		AD8F54662FD9484C002AFCEC /* MTCodeSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F54642FD9484C002AFCEC /* MTCodeSigning.swift */; };
+		AD9E21CC2FF662820097D81E /* PatcherDaemonPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E21CB2FF662820097D81E /* PatcherDaemonPreferences.swift */; };
+		AD9E21E82FF6890E0097D81E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E21E02FF6890E0097D81E /* main.swift */; };
+		AD9E21EC2FF691940097D81E /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = ADFDC4212FCF06BD00AF18EA /* AppIcon.icon */; };
+		AD9E21F32FF694CA0097D81E /* corp.sap.PatcherAgent.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD9E21F22FF694CA0097D81E /* corp.sap.PatcherAgent.plist */; };
+		AD9E21F42FF694DF0097D81E /* corp.sap.PatcherAgent.plist in Embed Agent Plist */ = {isa = PBXBuildFile; fileRef = AD9E21F22FF694CA0097D81E /* corp.sap.PatcherAgent.plist */; };
+		AD9E21F52FF694FC0097D81E /* PatcherAgent.app in Copy Agent & Daemon */ = {isa = PBXBuildFile; fileRef = AD9E21D12FF689030097D81E /* PatcherAgent.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD9E21FB2FF69B380097D81E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89FB192FE975D400AFB067 /* Constants.swift */; };
+		AD9ED6612FE295B2009792F2 /* MTDaemonSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9ED6602FE29542009792F2 /* MTDaemonSession.swift */; };
+		ADA1BDF02FE91F2900AF476C /* AppIcon-Beta.icon in Resources */ = {isa = PBXBuildFile; fileRef = ADA1BDEE2FE91F2900AF476C /* AppIcon-Beta.icon */; };
+		ADA1BDFA2FE9211F00AF476C /* Release-InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = ADA1BDF82FE9211F00AF476C /* Release-InfoPlist.xcstrings */; };
+		ADA1BDFB2FE9211F00AF476C /* Beta-InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = ADA1BDF62FE9211F00AF476C /* Beta-InfoPlist.xcstrings */; };
+		ADA1BDFE2FE9270000AF476C /* Patcher.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = ADA1BDFD2FE9270000AF476C /* Patcher.mobileconfig */; };
+		ADBDE3692FE5491F00F5B478 /* MTVersionInfoTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBDE3682FE5491F00F5B478 /* MTVersionInfoTransformer.swift */; };
+		ADBDE36B2FE54F6800F5B478 /* MTMarkdownTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBDE36A2FE54F6800F5B478 /* MTMarkdownTransformer.swift */; };
+		ADF19ADE2FFF72B7003655E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89FB192FE975D400AFB067 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD530F7C2E31333F00E4F17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5614622E2E41600043E417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD530F712E31333E00E4F17E;
+			remoteInfo = PatcherDaemonXPC;
+		};
+		AD861F952FD9987700F8B5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5614622E2E41600043E417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD861F702FD9984500F8B5E8;
+			remoteInfo = PatcherDaemon;
+		};
+		AD9E21ED2FF6942F0097D81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5614622E2E41600043E417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9E21D02FF689030097D81E;
+			remoteInfo = PatcherAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD530F682E31327D00E4F17E /* Embed Daemon Plist */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+				AD21775A2FD02DCC00BCA777 /* corp.sap.PatcherDaemon.plist in Embed Daemon Plist */,
+			);
+			name = "Embed Daemon Plist";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD530F6B2E3132DB00E4F17E /* Copy Agent & Daemon */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				AD9E21F52FF694FC0097D81E /* PatcherAgent.app in Copy Agent & Daemon */,
+				AD861F972FD9988200F8B5E8 /* PatcherDaemon.app in Copy Agent & Daemon */,
+			);
+			name = "Copy Agent & Daemon";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD530F6D2E31331100E4F17E /* Embed XPC Service */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				AD530F7E2E31333F00E4F17E /* PatcherXPC.xpc in Embed XPC Service */,
+			);
+			name = "Embed XPC Service";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E21EF2FF694560097D81E /* Embed Agent Plist */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchAgents;
+			dstSubfolderSpec = 1;
+			files = (
+				AD9E21F42FF694DF0097D81E /* corp.sap.PatcherAgent.plist in Embed Agent Plist */,
+			);
+			name = "Embed Agent Plist";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD2177482FD02DCC00BCA777 /* MTDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDiscoverViewController.swift; sourceTree = "<group>"; };
+		AD21774A2FD02DCC00BCA777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD21774B2FD02DCC00BCA777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD21774C2FD02DCC00BCA777 /* corp.sap.PatcherDaemon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = corp.sap.PatcherDaemon.plist; sourceTree = "<group>"; };
+		AD21774D2FD02DCC00BCA777 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		AD21774F2FD02DCC00BCA777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD2177512FD02DCC00BCA777 /* Patcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Patcher.entitlements; sourceTree = "<group>"; };
+		AD21775B2FD02DD200BCA777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD21775C2FD02DD200BCA777 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD21775D2FD02DD200BCA777 /* PatcherXPC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatcherXPC.entitlements; sourceTree = "<group>"; };
+		AD21775E2FD02DD200BCA777 /* PatcherXPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatcherXPC.swift; sourceTree = "<group>"; };
+		AD21775F2FD02DD200BCA777 /* PatcherXPCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatcherXPCProtocol.swift; sourceTree = "<group>"; };
+		AD26FF492FD0536100E27723 /* MTAppDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTAppDefinitions.swift; sourceTree = "<group>"; };
+		AD26FF602FD05C7100E27723 /* MTButtonTitleTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTButtonTitleTransformer.swift; sourceTree = "<group>"; };
+		AD26FF632FD0626F00E27723 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AD29C4082FF7A56B003A5216 /* PatcherDaemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatcherDaemon.entitlements; sourceTree = "<group>"; };
+		AD29C4092FF7A597003A5216 /* PatcherAgent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PatcherAgent.entitlements; sourceTree = "<group>"; };
+		AD29C40A2FF7B20E003A5216 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AD2D61DB2FD8083200CBD08E /* MTSidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSidebarItem.swift; sourceTree = "<group>"; };
+		AD2D621C2FD8348100CBD08E /* MTDaemonConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDaemonConnection.swift; sourceTree = "<group>"; };
+		AD2F569A2FD081A00042C816 /* MTColoredButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTColoredButton.swift; sourceTree = "<group>"; };
+		AD31D4B02FF5176500F0955A /* MTSettingsGeneralController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSettingsGeneralController.swift; sourceTree = "<group>"; };
+		AD31D4B22FF51F1F00F0955A /* MTSettingsUpdatesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSettingsUpdatesController.swift; sourceTree = "<group>"; };
+		AD47F48030515BBA006132CA /* MTApplicationLocationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTApplicationLocationPolicy.swift; sourceTree = "<group>"; };
+		AD530F722E31333E00E4F17E /* PatcherXPC.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = PatcherXPC.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD56146A2E2E41600043E417 /* Patcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5817AA3023211E00E7B05C /* manifest.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = manifest.pem; sourceTree = "<group>"; };
+		AD5DB3C42FDFF09A008A2448 /* MTVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTVersion.swift; sourceTree = "<group>"; };
+		AD5DB3C62FDFF0B9008A2448 /* MTInstalledApplicationResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTInstalledApplicationResolver.swift; sourceTree = "<group>"; };
+		AD5DB3C72FDFF0C6008A2448 /* MTApplicationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTApplicationRepository.swift; sourceTree = "<group>"; };
+		AD613C4B2FD174B000F1E699 /* MTSidebarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSidebarController.swift; sourceTree = "<group>"; };
+		AD613C4F2FD1878F00F1E699 /* MTUpdatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTUpdatesViewController.swift; sourceTree = "<group>"; };
+		AD62E3912FD9773E00D12C05 /* MTInstallDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTInstallDelegate.swift; sourceTree = "<group>"; };
+		AD6B30672FE1708800F5C564 /* MTRotatingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTRotatingProgressView.swift; sourceTree = "<group>"; };
+		AD72BAA230504C9300B8D417 /* MTApplicationInstallationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTApplicationInstallationMonitor.swift; sourceTree = "<group>"; };
+		AD7EDB822FD9AE6200609E9B /* MTCachedApplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTCachedApplications.swift; sourceTree = "<group>"; };
+		AD861F692FD9964D00F8B5E8 /* MTApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTApplication.swift; sourceTree = "<group>"; };
+		AD861F712FD9984500F8B5E8 /* PatcherDaemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatcherDaemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD861F852FD9984C00F8B5E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD861F8A2FD9984C00F8B5E8 /* PatcherDaemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatcherDaemon.swift; sourceTree = "<group>"; };
+		AD861F8B2FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatcherDaemonProtocol.swift; sourceTree = "<group>"; };
+		AD89FB172FE9757500AFB067 /* MTTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTabViewController.swift; sourceTree = "<group>"; };
+		AD89FB192FE975D400AFB067 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD8F54642FD9484C002AFCEC /* MTCodeSigning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTCodeSigning.swift; sourceTree = "<group>"; };
+		AD9E21CB2FF662820097D81E /* PatcherDaemonPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatcherDaemonPreferences.swift; sourceTree = "<group>"; };
+		AD9E21D12FF689030097D81E /* PatcherAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatcherAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9E21E02FF6890E0097D81E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD9E21F22FF694CA0097D81E /* corp.sap.PatcherAgent.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = corp.sap.PatcherAgent.plist; sourceTree = "<group>"; };
+		AD9E22002FF6A7650097D81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD9ED6602FE29542009792F2 /* MTDaemonSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTDaemonSession.swift; sourceTree = "<group>"; };
+		ADA1BDEE2FE91F2900AF476C /* AppIcon-Beta.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "AppIcon-Beta.icon"; sourceTree = "<group>"; };
+		ADA1BDF52FE9211F00AF476C /* Beta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beta-Info.plist"; sourceTree = "<group>"; };
+		ADA1BDF62FE9211F00AF476C /* Beta-InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = "Beta-InfoPlist.xcstrings"; sourceTree = "<group>"; };
+		ADA1BDF72FE9211F00AF476C /* Release-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Release-Info.plist"; sourceTree = "<group>"; };
+		ADA1BDF82FE9211F00AF476C /* Release-InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = "Release-InfoPlist.xcstrings"; sourceTree = "<group>"; };
+		ADA1BDFD2FE9270000AF476C /* Patcher.mobileconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Patcher.mobileconfig; sourceTree = "<group>"; };
+		ADBAA8E72FE4145400556669 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		ADBDE3682FE5491F00F5B478 /* MTVersionInfoTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTVersionInfoTransformer.swift; sourceTree = "<group>"; };
+		ADBDE36A2FE54F6800F5B478 /* MTMarkdownTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMarkdownTransformer.swift; sourceTree = "<group>"; };
+		ADCC57CC306112BC00DCABFB /* Patcher-ParentConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Patcher-ParentConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57CD306112BC00DCABFB /* Patcher-SelfConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Patcher-SelfConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D03061136F00DCABFB /* PatcherXPC-ParentConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherXPC-ParentConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D13061136F00DCABFB /* PatcherXPC-ResponsibleConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherXPC-ResponsibleConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D43061140300DCABFB /* PatcherAgent-ParentConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherAgent-ParentConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D53061140300DCABFB /* PatcherAgent-SelfConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherAgent-SelfConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D8306114BE00DCABFB /* PatcherDaemon-ParentConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherDaemon-ParentConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADCC57D9306114BE00DCABFB /* PatcherDaemon-SelfConstraint.coderequirement */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PatcherDaemon-SelfConstraint.coderequirement"; sourceTree = "<group>"; };
+		ADD67F582FF28D8B00D6FFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADFDC4212FCF06BD00AF18EA /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD530F6F2E31333E00E4F17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5614672E2E41600043E417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD861F6E2FD9984500F8B5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E21CE2FF689030097D81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD2177452FD02D7F00BCA777 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDC4212FCF06BD00AF18EA /* AppIcon.icon */,
+				ADA1BDEE2FE91F2900AF476C /* AppIcon-Beta.icon */,
+				AD8F54632FD94827002AFCEC /* Classes */,
+				AD89FB192FE975D400AFB067 /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD2177492FD02DCC00BCA777 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD2177482FD02DCC00BCA777 /* MTDiscoverViewController.swift */,
+				AD31D4B02FF5176500F0955A /* MTSettingsGeneralController.swift */,
+				AD31D4B22FF51F1F00F0955A /* MTSettingsUpdatesController.swift */,
+				AD613C4B2FD174B000F1E699 /* MTSidebarController.swift */,
+				AD89FB172FE9757500AFB067 /* MTTabViewController.swift */,
+				AD613C4F2FD1878F00F1E699 /* MTUpdatesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AD2177522FD02DCC00BCA777 /* Patcher */ = {
+			isa = PBXGroup;
+			children = (
+				AD21774A2FD02DCC00BCA777 /* AppDelegate.swift */,
+				AD21774B2FD02DCC00BCA777 /* Assets.xcassets */,
+				ADA1BDF52FE9211F00AF476C /* Beta-Info.plist */,
+				ADA1BDF62FE9211F00AF476C /* Beta-InfoPlist.xcstrings */,
+				AD26FF482FD0532500E27723 /* Classes */,
+				AD9E21F22FF694CA0097D81E /* corp.sap.PatcherAgent.plist */,
+				AD21774C2FD02DCC00BCA777 /* corp.sap.PatcherDaemon.plist */,
+				AD21774D2FD02DCC00BCA777 /* Credits.rtf */,
+				AD26FF632FD0626F00E27723 /* Localizable.xcstrings */,
+				AD2177502FD02DCC00BCA777 /* Main.storyboard */,
+				AD2177512FD02DCC00BCA777 /* Patcher.entitlements */,
+				ADA1BDFD2FE9270000AF476C /* Patcher.mobileconfig */,
+				ADCC57CC306112BC00DCABFB /* Patcher-ParentConstraint.coderequirement */,
+				ADCC57CD306112BC00DCABFB /* Patcher-SelfConstraint.coderequirement */,
+				ADA1BDF72FE9211F00AF476C /* Release-Info.plist */,
+				ADA1BDF82FE9211F00AF476C /* Release-InfoPlist.xcstrings */,
+				AD2177492FD02DCC00BCA777 /* View Controllers */,
+			);
+			path = Patcher;
+			sourceTree = "<group>";
+		};
+		AD2177602FD02DD200BCA777 /* PatcherXPC */ = {
+			isa = PBXGroup;
+			children = (
+				AD21775B2FD02DD200BCA777 /* Info.plist */,
+				AD21775C2FD02DD200BCA777 /* main.swift */,
+				AD21775D2FD02DD200BCA777 /* PatcherXPC.entitlements */,
+				AD21775E2FD02DD200BCA777 /* PatcherXPC.swift */,
+				ADCC57D03061136F00DCABFB /* PatcherXPC-ParentConstraint.coderequirement */,
+				ADCC57D13061136F00DCABFB /* PatcherXPC-ResponsibleConstraint.coderequirement */,
+				AD21775F2FD02DD200BCA777 /* PatcherXPCProtocol.swift */,
+			);
+			path = PatcherXPC;
+			sourceTree = "<group>";
+		};
+		AD26FF482FD0532500E27723 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD72BAA230504C9300B8D417 /* MTApplicationInstallationMonitor.swift */,
+				AD26FF602FD05C7100E27723 /* MTButtonTitleTransformer.swift */,
+				AD7EDB822FD9AE6200609E9B /* MTCachedApplications.swift */,
+				AD2F569A2FD081A00042C816 /* MTColoredButton.swift */,
+				AD2D621C2FD8348100CBD08E /* MTDaemonConnection.swift */,
+				AD9ED6602FE29542009792F2 /* MTDaemonSession.swift */,
+				ADBDE36A2FE54F6800F5B478 /* MTMarkdownTransformer.swift */,
+				AD6B30672FE1708800F5C564 /* MTRotatingProgressView.swift */,
+				AD2D61DB2FD8083200CBD08E /* MTSidebarItem.swift */,
+				ADBDE3682FE5491F00F5B478 /* MTVersionInfoTransformer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD5614612E2E41600043E417 = {
+			isa = PBXGroup;
+			children = (
+				AD2177452FD02D7F00BCA777 /* Shared */,
+				AD2177522FD02DCC00BCA777 /* Patcher */,
+				AD9E21E52FF6890E0097D81E /* PatcherAgent */,
+				AD861F8D2FD9984C00F8B5E8 /* PatcherDaemon */,
+				AD2177602FD02DD200BCA777 /* PatcherXPC */,
+				AD56146B2E2E41600043E417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD56146B2E2E41600043E417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD56146A2E2E41600043E417 /* Patcher.app */,
+				AD530F722E31333E00E4F17E /* PatcherXPC.xpc */,
+				AD861F712FD9984500F8B5E8 /* PatcherDaemon.app */,
+				AD9E21D12FF689030097D81E /* PatcherAgent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5DB3CC2FDFF5A5008A2448 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD26FF492FD0536100E27723 /* MTAppDefinitions.swift */,
+				AD5DB3C72FDFF0C6008A2448 /* MTApplicationRepository.swift */,
+				AD5DB3C62FDFF0B9008A2448 /* MTInstalledApplicationResolver.swift */,
+				AD9E21CB2FF662820097D81E /* PatcherDaemonPreferences.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD861F8D2FD9984C00F8B5E8 /* PatcherDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DB3CC2FDFF5A5008A2448 /* Classes */,
+				ADD67F582FF28D8B00D6FFCE /* Info.plist */,
+				AD861F852FD9984C00F8B5E8 /* main.swift */,
+				AD5817AA3023211E00E7B05C /* manifest.pem */,
+				AD29C4082FF7A56B003A5216 /* PatcherDaemon.entitlements */,
+				AD861F8A2FD9984C00F8B5E8 /* PatcherDaemon.swift */,
+				ADCC57D8306114BE00DCABFB /* PatcherDaemon-ParentConstraint.coderequirement */,
+				ADCC57D9306114BE00DCABFB /* PatcherDaemon-SelfConstraint.coderequirement */,
+				AD861F8B2FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift */,
+			);
+			path = PatcherDaemon;
+			sourceTree = "<group>";
+		};
+		AD8F54632FD94827002AFCEC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD861F692FD9964D00F8B5E8 /* MTApplication.swift */,
+				AD47F48030515BBA006132CA /* MTApplicationLocationPolicy.swift */,
+				AD8F54642FD9484C002AFCEC /* MTCodeSigning.swift */,
+				AD62E3912FD9773E00D12C05 /* MTInstallDelegate.swift */,
+				AD5DB3C42FDFF09A008A2448 /* MTVersion.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD9E21E52FF6890E0097D81E /* PatcherAgent */ = {
+			isa = PBXGroup;
+			children = (
+				AD9E22002FF6A7650097D81E /* Info.plist */,
+				AD29C40A2FF7B20E003A5216 /* Localizable.xcstrings */,
+				AD9E21E02FF6890E0097D81E /* main.swift */,
+				AD29C4092FF7A597003A5216 /* PatcherAgent.entitlements */,
+				ADCC57D43061140300DCABFB /* PatcherAgent-ParentConstraint.coderequirement */,
+				ADCC57D53061140300DCABFB /* PatcherAgent-SelfConstraint.coderequirement */,
+			);
+			path = PatcherAgent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD530F712E31333E00E4F17E /* PatcherXPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD530F7F2E31333F00E4F17E /* Build configuration list for PBXNativeTarget "PatcherXPC" */;
+			buildPhases = (
+				AD530F6E2E31333E00E4F17E /* Sources */,
+				AD530F6F2E31333E00E4F17E /* Frameworks */,
+				AD530F702E31333E00E4F17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatcherXPC;
+			packageProductDependencies = (
+			);
+			productName = PatcherDaemonXPC;
+			productReference = AD530F722E31333E00E4F17E /* PatcherXPC.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		AD5614692E2E41600043E417 /* Patcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5614792E2E41610043E417 /* Build configuration list for PBXNativeTarget "Patcher" */;
+			buildPhases = (
+				AD5614662E2E41600043E417 /* Sources */,
+				AD5614672E2E41600043E417 /* Frameworks */,
+				AD5614682E2E41600043E417 /* Resources */,
+				AD530F6B2E3132DB00E4F17E /* Copy Agent & Daemon */,
+				AD530F6D2E31331100E4F17E /* Embed XPC Service */,
+				AD530F682E31327D00E4F17E /* Embed Daemon Plist */,
+				AD9E21EF2FF694560097D81E /* Embed Agent Plist */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9E21EE2FF6942F0097D81E /* PBXTargetDependency */,
+				AD861F962FD9987700F8B5E8 /* PBXTargetDependency */,
+				AD530F7D2E31333F00E4F17E /* PBXTargetDependency */,
+			);
+			name = Patcher;
+			packageProductDependencies = (
+			);
+			productName = Patcher;
+			productReference = AD56146A2E2E41600043E417 /* Patcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD861F702FD9984500F8B5E8 /* PatcherDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD861F7C2FD9984600F8B5E8 /* Build configuration list for PBXNativeTarget "PatcherDaemon" */;
+			buildPhases = (
+				AD861F6D2FD9984500F8B5E8 /* Sources */,
+				AD861F6E2FD9984500F8B5E8 /* Frameworks */,
+				AD861F6F2FD9984500F8B5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatcherDaemon;
+			packageProductDependencies = (
+			);
+			productName = PatcherDaemon;
+			productReference = AD861F712FD9984500F8B5E8 /* PatcherDaemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD9E21D02FF689030097D81E /* PatcherAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9E21DC2FF689050097D81E /* Build configuration list for PBXNativeTarget "PatcherAgent" */;
+			buildPhases = (
+				AD9E21CD2FF689030097D81E /* Sources */,
+				AD9E21CE2FF689030097D81E /* Frameworks */,
+				AD9E21CF2FF689030097D81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatcherAgent;
+			packageProductDependencies = (
+			);
+			productName = PatcherAgent;
+			productReference = AD9E21D12FF689030097D81E /* PatcherAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5614622E2E41600043E417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					AD530F712E31333E00E4F17E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AD5614692E2E41600043E417 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AD861F702FD9984500F8B5E8 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					AD9E21D02FF689030097D81E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = AD5614652E2E41600043E417 /* Build configuration list for PBXProject "Patcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = AD5614612E2E41600043E417;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD56146B2E2E41600043E417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5614692E2E41600043E417 /* Patcher */,
+				AD530F712E31333E00E4F17E /* PatcherXPC */,
+				AD861F702FD9984500F8B5E8 /* PatcherDaemon */,
+				AD9E21D02FF689030097D81E /* PatcherAgent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD530F702E31333E00E4F17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5614682E2E41600043E417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2177532FD02DCC00BCA777 /* Assets.xcassets in Resources */,
+				AD2177552FD02DCC00BCA777 /* Credits.rtf in Resources */,
+				ADA1BDFA2FE9211F00AF476C /* Release-InfoPlist.xcstrings in Resources */,
+				ADA1BDFB2FE9211F00AF476C /* Beta-InfoPlist.xcstrings in Resources */,
+				ADA1BDFE2FE9270000AF476C /* Patcher.mobileconfig in Resources */,
+				AD9E21F32FF694CA0097D81E /* corp.sap.PatcherAgent.plist in Resources */,
+				AD26FF642FD0626F00E27723 /* Localizable.xcstrings in Resources */,
+				ADA1BDF02FE91F2900AF476C /* AppIcon-Beta.icon in Resources */,
+				AD861FA02FD99C5B00F8B5E8 /* AppIcon.icon in Resources */,
+				AD2177572FD02DCC00BCA777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD861F6F2FD9984500F8B5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD29B7912FE00EEB008F01A4 /* AppIcon.icon in Resources */,
+				AD5817AB3023211E00E7B05C /* manifest.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E21CF2FF689030097D81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD29C40B2FF7B20E003A5216 /* Localizable.xcstrings in Resources */,
+				AD9E21EC2FF691940097D81E /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD530F6E2E31333E00E4F17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2177622FD02DD200BCA777 /* main.swift in Sources */,
+				AD8F54662FD9484C002AFCEC /* MTCodeSigning.swift in Sources */,
+				AD2177632FD02DD200BCA777 /* PatcherXPC.swift in Sources */,
+				AD861F9E2FD99C2300F8B5E8 /* PatcherDaemonProtocol.swift in Sources */,
+				AD861F6B2FD9964D00F8B5E8 /* MTApplication.swift in Sources */,
+				AD62E3942FD9773E00D12C05 /* MTInstallDelegate.swift in Sources */,
+				AD2177642FD02DD200BCA777 /* PatcherXPCProtocol.swift in Sources */,
+				ADF19ADE2FFF72B7003655E0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5614662E2E41600043E417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD72BAA330504CBE00B8D417 /* MTApplicationInstallationMonitor.swift in Sources */,
+				AD2D61DC2FD8083200CBD08E /* MTSidebarItem.swift in Sources */,
+				AD89FB1B2FE975D400AFB067 /* Constants.swift in Sources */,
+				AD29B7922FE01416008F01A4 /* MTVersion.swift in Sources */,
+				AD2177582FD02DCC00BCA777 /* MTDiscoverViewController.swift in Sources */,
+				AD8F54652FD9484C002AFCEC /* MTCodeSigning.swift in Sources */,
+				AD47F48230515BC1006132CA /* MTApplicationLocationPolicy.swift in Sources */,
+				AD7EDB832FD9AE6200609E9B /* MTCachedApplications.swift in Sources */,
+				AD613C4C2FD174B000F1E699 /* MTSidebarController.swift in Sources */,
+				AD2D621D2FD8348100CBD08E /* MTDaemonConnection.swift in Sources */,
+				AD2D621E2FD835EB00CBD08E /* PatcherXPCProtocol.swift in Sources */,
+				AD6B30682FE1708800F5C564 /* MTRotatingProgressView.swift in Sources */,
+				AD31D4B12FF5176500F0955A /* MTSettingsGeneralController.swift in Sources */,
+				AD2177592FD02DCC00BCA777 /* AppDelegate.swift in Sources */,
+				AD26FF622FD05C7100E27723 /* MTButtonTitleTransformer.swift in Sources */,
+				AD2F569C2FD081A00042C816 /* MTColoredButton.swift in Sources */,
+				AD861F9F2FD99C2800F8B5E8 /* PatcherDaemonProtocol.swift in Sources */,
+				AD31D4B32FF51F1F00F0955A /* MTSettingsUpdatesController.swift in Sources */,
+				AD89FB182FE9757500AFB067 /* MTTabViewController.swift in Sources */,
+				AD613C502FD1878F00F1E699 /* MTUpdatesViewController.swift in Sources */,
+				ADBDE3692FE5491F00F5B478 /* MTVersionInfoTransformer.swift in Sources */,
+				AD9ED6612FE295B2009792F2 /* MTDaemonSession.swift in Sources */,
+				AD62E3932FD9773E00D12C05 /* MTInstallDelegate.swift in Sources */,
+				ADBDE36B2FE54F6800F5B478 /* MTMarkdownTransformer.swift in Sources */,
+				AD861F6A2FD9964D00F8B5E8 /* MTApplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD861F6D2FD9984500F8B5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD861F902FD9984C00F8B5E8 /* main.swift in Sources */,
+				AD5DB3C92FDFF0EA008A2448 /* MTInstalledApplicationResolver.swift in Sources */,
+				AD5DB3CA2FDFF0EA008A2448 /* MTVersion.swift in Sources */,
+				AD5DB3CB2FDFF0EA008A2448 /* MTApplicationRepository.swift in Sources */,
+				AD861F9B2FD9991000F8B5E8 /* MTAppDefinitions.swift in Sources */,
+				AD861F982FD998CF00F8B5E8 /* MTCodeSigning.swift in Sources */,
+				AD861F9A2FD9990B00F8B5E8 /* MTApplication.swift in Sources */,
+				AD861F922FD9984C00F8B5E8 /* PatcherDaemon.swift in Sources */,
+				AD861F932FD9984C00F8B5E8 /* PatcherDaemonProtocol.swift in Sources */,
+				AD861F992FD9990400F8B5E8 /* MTInstallDelegate.swift in Sources */,
+				AD47F48330515BC1006132CA /* MTApplicationLocationPolicy.swift in Sources */,
+				AD89FB1A2FE975D400AFB067 /* Constants.swift in Sources */,
+				AD9E21CC2FF662820097D81E /* PatcherDaemonPreferences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E21CD2FF689030097D81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9E21E82FF6890E0097D81E /* main.swift in Sources */,
+				AD9E21FB2FF69B380097D81E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD530F7D2E31333F00E4F17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD530F712E31333E00E4F17E /* PatcherXPC */;
+			targetProxy = AD530F7C2E31333F00E4F17E /* PBXContainerItemProxy */;
+		};
+		AD861F962FD9987700F8B5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD861F702FD9984500F8B5E8 /* PatcherDaemon */;
+			targetProxy = AD861F952FD9987700F8B5E8 /* PBXContainerItemProxy */;
+		};
+		AD9E21EE2FF6942F0097D81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9E21D02FF689030097D81E /* PatcherAgent */;
+			targetProxy = AD9E21ED2FF6942F0097D81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD2177502FD02DCC00BCA777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD21774F2FD02DCC00BCA777 /* Base */,
+				ADBAA8E72FE4145400556669 /* mul */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD530F802E31333F00E4F17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PatcherXPC/PatcherXPC.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 23;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherXPC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PatcherXPC;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherXPC/PatcherXPC-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_RESPONSIBLE = "$(SRCROOT)/PatcherXPC/PatcherXPC-ResponsibleConstraint.coderequirement";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD530F812E31333F00E4F17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PatcherXPC/PatcherXPC.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 23;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherXPC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PatcherXPC;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherXPC/PatcherXPC-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_RESPONSIBLE = "$(SRCROOT)/PatcherXPC/PatcherXPC-ResponsibleConstraint.coderequirement";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD5614772E2E41610043E417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5614782E2E41610043E417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AD56147A2E2E41610043E417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Patcher/Patcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 195;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"Beta-InfoPlist.xcstrings",
+					"AppIcon-Beta.icon",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Patcher/Release-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Patcher;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/Patcher/Patcher-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/Patcher/Patcher-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.Patcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD56147B2E2E41610043E417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Patcher/Patcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 195;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"Beta-InfoPlist.xcstrings",
+					"AppIcon-Beta.icon",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Patcher/Release-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Patcher;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/Patcher/Patcher-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/Patcher/Patcher-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.Patcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD861F7D2FD9984600F8B5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherDaemon/PatcherDaemon.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 57;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherDaemon/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherDaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD861F7E2FD9984600F8B5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherDaemon/PatcherDaemon.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 57;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherDaemon/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherDaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD9E21DD2FF689050097D81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherAgent/PatcherAgent.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 41;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherAgent/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherAgent/PatcherAgent-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherAgent/PatcherAgent-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD9E21DE2FF689050097D81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherAgent/PatcherAgent.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 41;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherAgent/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherAgent/PatcherAgent-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherAgent/PatcherAgent-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD9E21DF2FF689050097D81E /* Release Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherAgent/PatcherAgent.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 41;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherAgent/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherAgent/PatcherAgent-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherAgent/PatcherAgent-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Beta";
+		};
+		ADA1BDF12FE91FC000AF476C /* Release Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = "Release Beta";
+		};
+		ADA1BDF22FE91FC000AF476C /* Release Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Patcher/Patcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 195;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"Release-InfoPlist.xcstrings",
+					AppIcon.icon,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Patcher/Beta-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Patcher;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/Patcher/Patcher-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/Patcher/Patcher-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.Patcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Beta";
+		};
+		ADA1BDF32FE91FC000AF476C /* Release Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PatcherXPC/PatcherXPC.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 23;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherXPC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PatcherXPC;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherXPC/PatcherXPC-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_RESPONSIBLE = "$(SRCROOT)/PatcherXPC/PatcherXPC-ResponsibleConstraint.coderequirement";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Beta";
+		};
+		ADA1BDF42FE91FC000AF476C /* Release Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PatcherDaemon/PatcherDaemon.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 57;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PatcherDaemon/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 SAP SE.\nAll rights reserved.";
+				LAUNCH_CONSTRAINT_PARENT = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-ParentConstraint.coderequirement";
+				LAUNCH_CONSTRAINT_SELF = "$(SRCROOT)/PatcherDaemon/PatcherDaemon-SelfConstraint.coderequirement";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.sap.PatcherDaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Beta";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD530F7F2E31333F00E4F17E /* Build configuration list for PBXNativeTarget "PatcherXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD530F802E31333F00E4F17E /* Debug */,
+				AD530F812E31333F00E4F17E /* Release */,
+				ADA1BDF32FE91FC000AF476C /* Release Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5614652E2E41600043E417 /* Build configuration list for PBXProject "Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5614772E2E41610043E417 /* Debug */,
+				AD5614782E2E41610043E417 /* Release */,
+				ADA1BDF12FE91FC000AF476C /* Release Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5614792E2E41610043E417 /* Build configuration list for PBXNativeTarget "Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD56147A2E2E41610043E417 /* Debug */,
+				AD56147B2E2E41610043E417 /* Release */,
+				ADA1BDF22FE91FC000AF476C /* Release Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD861F7C2FD9984600F8B5E8 /* Build configuration list for PBXNativeTarget "PatcherDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD861F7D2FD9984600F8B5E8 /* Debug */,
+				AD861F7E2FD9984600F8B5E8 /* Release */,
+				ADA1BDF42FE91FC000AF476C /* Release Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9E21DC2FF689050097D81E /* Build configuration list for PBXNativeTarget "PatcherAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9E21DD2FF689050097D81E /* Debug */,
+				AD9E21DE2FF689050097D81E /* Release */,
+				AD9E21DF2FF689050097D81E /* Release Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5614622E2E41600043E417 /* Project object */;
+}

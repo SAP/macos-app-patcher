@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MachServices</key>
+	<dict>
+		<key>corp.sap.PatcherDaemon.xpc</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>corp.sap.patcher.daemon</string>
+	<key>Program</key>
+	<string>/Applications/Patcher.app/Contents/MacOS/PatcherDaemon.app/Contents/MacOS/PatcherDaemon</string>
+	<key>AssociatedBundleIdentifiers</key>
+	<string>corp.sap.Patcher</string>
+	<key>StartInterval</key>
+	<integer>7200</integer>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>SpawnConstraint</key>
+	<dict>
+		<key>team-identifier</key>
+		<string>7R5ZEU67FQ</string>
+		<key>signing-identifier</key>
+		<string>corp.sap.PatcherDaemon</string>
+	</dict>
+</dict>
+</plist>

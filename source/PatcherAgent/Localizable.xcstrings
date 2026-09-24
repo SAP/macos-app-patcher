@@ -1,0 +1,70 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NotificationBodyUpdateAvailableMultiple" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es sind %(availableUpdates)lld Updates verfügbar. Klicke hier, um die Patcher App zu öffnen und die Updates zu installieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are %1$(availableUpdates)lld updates available. Click here to open the Patcher app and install the updates."
+          }
+        }
+      }
+    },
+    "NotificationBodyUpdateAvailableOne" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es ist ein Update verfügbar. Klicke hier, um die Patcher App zu öffnen und das Update zu installieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An update is available. Click here to open the Patcher app and install the update."
+          }
+        }
+      }
+    },
+    "NotificationTitleUpdateAvailableMultiple" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updates verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updates available"
+          }
+        }
+      }
+    },
+    "NotificationTitleUpdateAvailableOne" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update available"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

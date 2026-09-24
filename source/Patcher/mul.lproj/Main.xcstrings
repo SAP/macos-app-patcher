@@ -1,0 +1,1071 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0cW-0U-9gC.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"24\"; ObjectID = \"0cW-0U-9gC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "24"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "1Lt-BW-Zz3.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Update\"; ObjectID = \"1Lt-BW-Zz3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Update"
+          }
+        }
+      }
+    },
+    "1Q7-3m-RUo.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Header Cell\"; ObjectID = \"1Q7-3m-RUo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Header Cell"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "1Xt-HY-uBw.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Patcher\"; ObjectID = \"1Xt-HY-uBw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Patcher"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "3cE-XT-7DI.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Automatically check and notify\"; ObjectID = \"3cE-XT-7DI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch prüfen und benachrichtigen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Automatically check and notify"
+          }
+        }
+      }
+    },
+    "3zM-br-Ajs.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"AppName\"; ObjectID = \"3zM-br-Ajs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AppName"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "4rU-OM-dpw.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Website\"; ObjectID = \"4rU-OM-dpw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Website"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Website"
+          }
+        }
+      }
+    },
+    "4sb-4s-VLi.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Quit Patcher\"; ObjectID = \"4sb-4s-VLi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher beenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Quit Patcher"
+          }
+        }
+      }
+    },
+    "5kV-Vb-QxS.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"About Patcher\"; ObjectID = \"5kV-Vb-QxS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Patcher"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "About Patcher"
+          }
+        }
+      }
+    },
+    "5oJ-01-Bka.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This application has a Discover section in its sidebar by default. This section lets you easily find and install all of our apps. It also allows you to reinstall apps you have already installed. If you are not interested in this feature, please select the option below.\"; ObjectID = \"5oJ-01-Bka\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Programm verfügt standardmäßig über einen „Entdecken“-Bereich in der Seitenleiste. In diesem Bereich kannst Du alle unsere Apps ganz einfach finden und installieren. Außerdem kannst Du dort bereits installierte Apps erneut installieren. Wenn Du an dieser Funktion nicht interessiert bist, aktiviere bitte die unten stehende Option."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This application has a Discover section in its sidebar by default. This section lets you easily find and install all of our apps. It also allows you to reinstall apps you have already installed. If you are not interested in this feature, please select the option below."
+          }
+        }
+      }
+    },
+    "5QF-Oa-p0T.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Edit\"; ObjectID = \"5QF-Oa-p0T\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "6dh-zS-Vam.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Redo\"; ObjectID = \"6dh-zS-Vam\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redo"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Redo"
+          }
+        }
+      }
+    },
+    "11K-Mr-YnJ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This setting has been configured by a profile.\"; ObjectID = \"11K-Mr-YnJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This setting has been configured by a profile."
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "26Q-1r-BIV.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"installButton\"; ObjectID = \"26Q-1r-BIV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "installButton"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "aQQ-vI-K2l.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"AppDescription\"; ObjectID = \"aQQ-vI-K2l\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AppDescription"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "aUF-d1-5bR.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Window\"; ObjectID = \"aUF-d1-5bR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Window"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "AYu-sK-qS6.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Main Menu\"; ObjectID = \"AYu-sK-qS6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Main Menu"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "B4x-Vt-rD8.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"28\"; ObjectID = \"B4x-Vt-rD8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "28"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "bCf-4Y-BlK.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"If you prefer not to install updates automatically, but would like to be notified when new updates are available, use the slider below to set the notification interval (in hours).\"; ObjectID = \"bCf-4Y-BlK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn Du Updates nicht automatisch installieren möchtest, aber benachrichtigt werden willst, sobald neue Updates verfügbar sind, stelle bitte mit dem unten stehenden Schieberegler ein, in welchem Abstand (in Stunden) Du Benachrichtigungen erhalten willst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "If you prefer not to install updates automatically, but would like to be notified when new updates are available, use the slider below to set the notification interval (in hours)."
+          }
+        }
+      }
+    },
+    "BOF-NM-1cW.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Preferences…\"; ObjectID = \"BOF-NM-1cW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Preferences…"
+          }
+        }
+      }
+    },
+    "BZM-PR-BVX.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Table View Cell\"; ObjectID = \"BZM-PR-BVX\";",
+      "extractionState" : "manual",
+      "shouldTranslate" : false
+    },
+    "dRJ-4n-Yzg.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Undo\"; ObjectID = \"dRJ-4n-Yzg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Undo"
+          }
+        }
+      }
+    },
+    "edS-Oh-xY4.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This program was developed to automatically update all of the apps we offer. Ideally, this happens in the background without you noticing. You should always assume that your apps are up to date. However, if you would like more control over the update process, please select the update strategy that works best for you from the menu below.\"; ObjectID = \"edS-Oh-xY4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Programm wurde entwickelt, um alle von uns angebotenen Apps automatisch zu aktualisieren. Im Idealfall geschieht dies im Hintergrund, ohne dass Du es bemerkst. Du solltest stets davon ausgehen können, dass Deine Apps auf dem neuesten Stand sind. Wenn Du jedoch mehr Kontrolle über den Aktualisierungsprozess haben möchtest, wähle bitte aus dem unten stehenden Menü die für Dich am besten geeignete Updatestrategie aus."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This program was developed to automatically update all of the apps we offer. Ideally, this happens in the background without you noticing. You should always assume that your apps are up to date. However, if you would like more control over the update process, please select the update strategy that works best for you from the menu below."
+          }
+        }
+      }
+    },
+    "Ehf-Ro-FdJ.title" : {
+      "comment" : "Class = \"NSWindow\"; title = \"Patcher\"; ObjectID = \"Ehf-Ro-FdJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Patcher"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "ElY-NS-IAq.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"ElY-NS-IAq\";",
+      "extractionState" : "manual",
+      "shouldTranslate" : false
+    },
+    "eNO-D8-qZp.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"eNO-D8-qZp\";",
+      "extractionState" : "manual",
+      "shouldTranslate" : false
+    },
+    "f2Q-Ko-X5s.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Close\"; ObjectID = \"f2Q-Ko-X5s\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "F2S-fz-NVQ.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Help\"; ObjectID = \"F2S-fz-NVQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Help"
+          }
+        }
+      }
+    },
+    "Fe7-K3-R07.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Text Cell\"; ObjectID = \"Fe7-K3-R07\";",
+      "extractionState" : "manual",
+      "shouldTranslate" : false
+    },
+    "FKE-Sm-Kum.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Patcher on GitHub\"; ObjectID = \"FKE-Sm-Kum\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher auf GitHub"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Patcher on GitHub"
+          }
+        }
+      }
+    },
+    "fSq-qu-Axd.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Update strategy:\"; ObjectID = \"fSq-qu-Axd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updatestrategie:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Update strategy:"
+          }
+        }
+      }
+    },
+    "gVA-U4-sdL.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Paste\"; ObjectID = \"gVA-U4-sdL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einsetzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Paste"
+          }
+        }
+      }
+    },
+    "HPm-Kh-sFJ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"AppName\"; ObjectID = \"HPm-Kh-sFJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AppName"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "HQk-cI-OgK.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This setting has been configured by a profile.\"; ObjectID = \"HQk-cI-OgK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This setting has been configured by a profile."
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "hz9-B4-Xy5.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Services\"; ObjectID = \"hz9-B4-Xy5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Services"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "JWM-R8-EB3.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"ReleaseNotes\"; ObjectID = \"JWM-R8-EB3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "ReleaseNotes"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "jzM-4Y-Jpk.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Update deferral:\"; ObjectID = \"jzM-4Y-Jpk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updateverzögerung:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Update deferral:"
+          }
+        }
+      }
+    },
+    "Kd2-mp-pUS.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Show All\"; ObjectID = \"Kd2-mp-pUS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle einblenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Show All"
+          }
+        }
+      }
+    },
+    "L7Y-At-YnO.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"1\"; ObjectID = \"L7Y-At-YnO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "LE2-aR-0XJ.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Bring All to Front\"; ObjectID = \"LE2-aR-0XJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle nach vorne bringen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bring All to Front"
+          }
+        }
+      }
+    },
+    "MTD-UF-jMQ.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"If you would like to defer the display and installation of new updates for a certain number of days, use the slider below to select the number of days you would like to defer the updates from the release date.\"; ObjectID = \"MTD-UF-jMQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn Du die Anzeige oder Installation neuer Updates um eine bestimmte Anzahl von Tagen verzögern möchtest, stelle bitte mit dem unten stehenden Schieberegler ein, um wieviele Tage ab dem Datum der Veröffentlichung, Du Updates verzögern möchtest."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "If you would like to defer the display and installation of new updates for a certain number of days, use the slider below to select the number of days you would like to defer the updates from the release date."
+          }
+        }
+      }
+    },
+    "NMo-om-nkz.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Services\"; ObjectID = \"NMo-om-nkz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dienste"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Services"
+          }
+        }
+      }
+    },
+    "o7r-AG-4Yq.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This setting has been configured by a profile.\"; ObjectID = \"o7r-AG-4Yq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This setting has been configured by a profile."
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Olw-nP-bQN.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Hide Patcher\"; ObjectID = \"Olw-nP-bQN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher ausblenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Hide Patcher"
+          }
+        }
+      }
+    },
+    "OY7-WF-poV.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Minimize\"; ObjectID = \"OY7-WF-poV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Dock ablegen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Minimize"
+          }
+        }
+      }
+    },
+    "p5F-VL-dXs.title" : {
+      "comment" : "Class = \"NSViewController\"; title = \"General\"; ObjectID = \"p5F-VL-dXs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allgemein"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "General"
+          }
+        }
+      }
+    },
+    "pa3-QI-u2k.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Delete\"; ObjectID = \"pa3-QI-u2k\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "pdN-2Z-Ugv.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Automatically download and install\"; ObjectID = \"pdN-2Z-Ugv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch herunterladen und installieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Automatically download and install"
+          }
+        }
+      }
+    },
+    "Pgh-yX-U2h.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"There are currently no updates available, so please check back at a later time.\"; ObjectID = \"Pgh-yX-U2h\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derzeit sind keine Updates verfügbar.\nBitte schaue zu einem späteren Zeitpunkt noch einmal vorbei."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "There are currently no updates available, so please check back at a later time."
+          }
+        }
+      }
+    },
+    "pYK-yQ-5zH.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Notification interval:\"; ObjectID = \"pYK-yQ-5zH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungsintervall:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notification interval:"
+          }
+        }
+      }
+    },
+    "R4o-n2-Eq4.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Zoom\"; ObjectID = \"R4o-n2-Eq4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoomen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Zoom"
+          }
+        }
+      }
+    },
+    "reZ-gh-Xgs.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"VersionInfo\"; ObjectID = \"reZ-gh-Xgs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "VersionInfo"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Ruw-6m-B2m.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Select All\"; ObjectID = \"Ruw-6m-B2m\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles auswählen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select All"
+          }
+        }
+      }
+    },
+    "Td7-aD-5lo.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Window\"; ObjectID = \"Td7-aD-5lo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fenster"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Window"
+          }
+        }
+      }
+    },
+    "uem-lt-pUA.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"This setting has been configured by a profile.\"; ObjectID = \"uem-lt-pUA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This setting has been configured by a profile."
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "uQy-DD-JDr.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Patcher\"; ObjectID = \"uQy-DD-JDr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patcher"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Patcher"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "uRl-iY-unG.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Cut\"; ObjectID = \"uRl-iY-unG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausschneiden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cut"
+          }
+        }
+      }
+    },
+    "Vdr-fp-XzO.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Hide Others\"; ObjectID = \"Vdr-fp-XzO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere ausblenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Hide Others"
+          }
+        }
+      }
+    },
+    "VXH-1P-qZ1.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Manual\"; ObjectID = \"VXH-1P-qZ1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manuell"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Manual"
+          }
+        }
+      }
+    },
+    "W48-6f-4Dl.title" : {
+      "comment" : "Class = \"NSMenu\"; title = \"Edit\"; ObjectID = \"W48-6f-4Dl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
+    "WeT-3V-zwk.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Paste and Match Style\"; ObjectID = \"WeT-3V-zwk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einsetzen und Stil anpassen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Paste and Match Style"
+          }
+        }
+      }
+    },
+    "wpr-3q-Mcd.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Help\"; ObjectID = \"wpr-3q-Mcd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Help"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "x3v-GG-iWU.title" : {
+      "comment" : "Class = \"NSMenuItem\"; title = \"Copy\"; ObjectID = \"x3v-GG-iWU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Xaz-Qp-KDQ.title" : {
+      "comment" : "Class = \"NSButtonCell\"; title = \"Hide Discover section\"; ObjectID = \"Xaz-Qp-KDQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereich „Entdecken“ ausblenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Hide Discover section"
+          }
+        }
+      }
+    },
+    "xm6-Zt-h8e.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"0\"; ObjectID = \"xm6-Zt-h8e\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "XsB-op-Ijf.title" : {
+      "comment" : "Class = \"NSViewController\"; title = \"Updates\"; ObjectID = \"XsB-op-Ijf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Updates"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "yHx-Lo-JIO.title" : {
+      "comment" : "Class = \"NSWindow\"; title = \"Settings\"; ObjectID = \"yHx-Lo-JIO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Settings"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "ZCX-d6-FEx.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Checking for updates…\"; ObjectID = \"ZCX-d6-FEx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Updates suchen …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Checking for updates…"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}
